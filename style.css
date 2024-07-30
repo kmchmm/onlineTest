@@ -359,7 +359,61 @@ nav ul li i{
 }
 
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1920px) {
+    .main .images img{
+        width: 100%;
+    }
+    .main .upper-left{
+        transform: rotate(-30deg);
+        position: absolute;
+        left: -45px;
+        top: 80px;
+    
+    }
+    .main .upper-right{
+        transform: rotate(40deg);
+        position: absolute;
+        right: 130px;
+        top: 70px;
+    
+    }
+    .main .upper-right img{
+        width: 400px;
+    }
+    .main .top{
+        transform: rotate(-20deg);
+        position: absolute;
+        top: -150px;
+        left: 50%;
+        margin: auto;
+    
+    }
+    .main .top img{
+        width: 350px;
+    }
+    .main .bottom-left{
+        transform: rotate(-30deg);
+        position: absolute;
+        bottom: 70px;
+        left: -70px;
+        width: 450px;
+    }
+    .main .bottom-left img{
+        width: 550px;
+    }
+    
+    .main .bottom-right{
+        transform: rotate(-60deg);
+        position: absolute;
+        bottom: 0px;
+        right: -50px;
+        width: 450px;
+        z-index: 0;
+        
+    }
+    .main .bottom-right img{
+        width: 500px;
+    }
     .main .order-now-button button{
         background-color: #decfaa;
         color: #d2a852;
@@ -381,6 +435,7 @@ nav ul li i{
 }
 
 @media screen and (max-width: 1799px) {
+    
     .main .order-now-button button{
         background-color: #decfaa;
         color: #d2a852;
