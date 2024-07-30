@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <nav>
+                <ul>
+                    <img src="assets/header.png" alt="">
+                    <li>Store</li>
+                    <li>About</li>
+                    <li>Shipping</li>
+                    <li>Recipes</li>
+                    <li>Blog</li>
+                </ul>
+                <ul>
+                    <li><i class='bx bx-cart-alt' ></i></li>
+                </ul>
+            </nav>
+            <div class="order-now-button">
+                <button>ORDER NOW</button>
+            </div>
+            <div class="images">
+                <div class="upper-left">
+                    <img src="assets/upper-left-bread.png" alt="">
+                </div>
+                <div class="upper-right">
+                    <img src="assets/upper-right-bread.png" alt="">
+                </div>
+                <div class="top">
+                    <img src="assets/top-bread.png" alt="">
+                </div>
+                <div class="bottom-left">
+                    <img src="assets/bottom-left-bread.png" alt="">
+                </div>
+                <div class="bottom-right">
+                    <img src="assets/bottom-right-bread.png" alt="">
+                </div>
+            </div>
+            <div class="overlay">
+            </div>
+            <div class="main-context">
+                <div>
+                    <h3>&mdash; bonjour &mdash;</h3>
+                    <h1>Serving Baked Goods <span>Every Day</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button>Shop Now <span>&#8594;</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="secondary">
+            <div class="upper-div">
+                <h3>&mdash; patisserie &mdash;</h3>
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Follow Us &nbsp;&nbsp;<span class="dash-line"> &mdash;&mdash;&mdash;&mdash;&mdash;</span> &nbsp; <i class='bx bxl-facebook'></i> &nbsp; <i class='bx bxl-instagram' ></i> </h4>
+            </div>
+            <div class="lower-div">
+                <div class="carousel">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <div>
+                                <img src="assets/pan-cranberry.png" alt="">
+                            </div>
+                            <div>
+                                <h5>Pain au Cranberry</h5>
+                                <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                <div class="prices">
+                                    <div class="price-buttons">
+                                        <form class="custom-select-wrapper">
+                                            <select name="" id="" class="custom-select">
+                                                <option value="">Pack of 6</option>
+                                                <option value="">Pack of 5</option>
+                                                <option value="">Pack of 4</option>
+                                                <option value="">Pack of 3</option>
+                                                <option value="">Pack of 2</option>
+                                                <option value="">Pack of 1</option>
+                                            </select>
+                                        </form>
+                                        <div class="counter">
+                                            <button id="decrement">-</button>
+                                            <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                            <button id="increment">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>&dollar; 128</span>
+                                    </div>
+                                </div>
+                                <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-slide">
+                                <div>
+                                    <img src="assets/pan-cranberry.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Pain au Cranberry</h5>
+                                    <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                    <div class="prices">
+                                        <div class="price-buttons">
+                                            <form class="custom-select-wrapper">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Pack of 6</option>
+                                                    <option value="">Pack of 5</option>
+                                                    <option value="">Pack of 4</option>
+                                                    <option value="">Pack of 3</option>
+                                                    <option value="">Pack of 2</option>
+                                                    <option value="">Pack of 1</option>
+                                                </select>
+                                            </form>
+                                            <div class="counter">
+                                                <button id="decrement">-</button>
+                                                <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                                <button id="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>&dollar; 128</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-slide">
+                                <div>
+                                    <img src="assets/roasted-pear-danish.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Roasted Pear Danish</h5>
+                                    <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                    <div class="prices">
+                                        <div class="price-buttons">
+                                            <form class="custom-select-wrapper">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Pack of 6</option>
+                                                    <option value="">Pack of 5</option>
+                                                    <option value="">Pack of 4</option>
+                                                    <option value="">Pack of 3</option>
+                                                    <option value="">Pack of 2</option>
+                                                    <option value="">Pack of 1</option>
+                                                </select>
+                                            </form>
+                                            <div class="counter">
+                                                <button id="decrement">-</button>
+                                                <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                                <button id="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>&dollar; 128</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-slide">
+                                <div>
+                                    <img src="assets/onion-anchovy.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Onion Anchovy</h5>
+                                    <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                    <div class="prices">
+                                        <div class="price-buttons">
+                                            <form class="custom-select-wrapper">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Pack of 6</option>
+                                                    <option value="">Pack of 5</option>
+                                                    <option value="">Pack of 4</option>
+                                                    <option value="">Pack of 3</option>
+                                                    <option value="">Pack of 2</option>
+                                                    <option value="">Pack of 1</option>
+                                                </select>
+                                            </form>
+                                            <div class="counter">
+                                                <button id="decrement">-</button>
+                                                <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                                <button id="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>&dollar; 128</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-slide">
+                                <div>
+                                    <img src="assets/pan-cranberry.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Pain au Cranberry</h5>
+                                    <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                    <div class="prices">
+                                        <div class="price-buttons">
+                                            <form class="custom-select-wrapper">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Pack of 6</option>
+                                                    <option value="">Pack of 5</option>
+                                                    <option value="">Pack of 4</option>
+                                                    <option value="">Pack of 3</option>
+                                                    <option value="">Pack of 2</option>
+                                                    <option value="">Pack of 1</option>
+                                                </select>
+                                            </form>
+                                            <div class="counter">
+                                                <button id="decrement">-</button>
+                                                <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                                <button id="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>&dollar; 128</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-slide">
+                                <div>
+                                    <img src="assets/pan-cranberry.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Pain au Cranberry</h5>
+                                    <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                    <div class="prices">
+                                        <div class="price-buttons">
+                                            <form class="custom-select-wrapper">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Pack of 6</option>
+                                                    <option value="">Pack of 5</option>
+                                                    <option value="">Pack of 4</option>
+                                                    <option value="">Pack of 3</option>
+                                                    <option value="">Pack of 2</option>
+                                                    <option value="">Pack of 1</option>
+                                                </select>
+                                            </form>
+                                            <div class="counter">
+                                                <button id="decrement">-</button>
+                                                <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                                <button id="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>&dollar; 128</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-slide">
+                                <div>
+                                    <img src="assets/roasted-pear-danish.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Roasted Pear Danish</h5>
+                                    <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                    <div class="prices">
+                                        <div class="price-buttons">
+                                            <form class="custom-select-wrapper">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Pack of 6</option>
+                                                    <option value="">Pack of 5</option>
+                                                    <option value="">Pack of 4</option>
+                                                    <option value="">Pack of 3</option>
+                                                    <option value="">Pack of 2</option>
+                                                    <option value="">Pack of 1</option>
+                                                </select>
+                                            </form>
+                                            <div class="counter">
+                                                <button id="decrement">-</button>
+                                                <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                                <button id="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>&dollar; 128</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-slide">
+                                <div>
+                                    <img src="assets/onion-anchovy.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Onion Anchovy</h5>
+                                    <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
+                                    <div class="prices">
+                                        <div class="price-buttons">
+                                            <form class="custom-select-wrapper">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="">Pack of 6</option>
+                                                    <option value="">Pack of 5</option>
+                                                    <option value="">Pack of 4</option>
+                                                    <option value="">Pack of 3</option>
+                                                    <option value="">Pack of 2</option>
+                                                    <option value="">Pack of 1</option>
+                                                </select>
+                                            </form>
+                                            <div class="counter">
+                                                <button id="decrement">-</button>
+                                                <input type="number" id="numberInput" class="number-input" value="5" min="0" />
+                                                <button id="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>&dollar; 128</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart"><span>&plus;</span> Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
