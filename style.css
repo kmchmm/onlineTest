@@ -411,6 +411,7 @@ nav ul li i{
         position: absolute;
         transform: rotate(-90deg);
         right: -50px;
+        top: 150px;
         cursor: pointer;
     }
     .main .main-context{
